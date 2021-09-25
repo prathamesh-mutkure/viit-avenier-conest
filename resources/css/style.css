@@ -70,16 +70,16 @@ nav {
 
 .scroll-down {
   position: relative;
-  width: 48px;
-  height: 48px;
+  width: 3rem;
+  height: 3rem;
   left: 49%;
   bottom: 0%;
 }
 
 .chevron {
   position: absolute;
-  width: 56px;
-  height: 16px;
+  width: 3.5rem;
+  height: 1rem;
   opacity: 0;
   transform: scale3d(0.5, 0.5, 0.5);
   animation: move 3s ease-out infinite;
@@ -120,15 +120,15 @@ nav {
   }
   33% {
     opacity: 1;
-    transform: translateY(60px);
+    transform: translateY(3.75rem);
   }
   67% {
     opacity: 1;
-    transform: translateY(80px);
+    transform: translateY(5rem);
   }
   100% {
     opacity: 0;
-    transform: translateY(110px) scale3d(0.5, 0.5, 0.5);
+    transform: translateY(6.8rem) scale3d(0.5, 0.5, 0.5);
   }
 }
 
