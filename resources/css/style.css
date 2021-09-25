@@ -66,6 +66,17 @@ body {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .outer-orbit {
+    width: 200px;
+    height: 200px;
+  }
+
+  .loading-anim img {
+    height: 8rem;
+  }
+}
+
 /*--------------------------------------------------------------
 # Nav Bar
 --------------------------------------------------------------*/
@@ -89,11 +100,17 @@ nav {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   font-size: 2rem;
-  transition: transform 0.3s;
+  transition: transform 0.3s, font-size 0.2s;
 }
 
 .navbar-brand:hover {
   transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -112,6 +129,7 @@ nav {
   font-size: 5rem;
   text-transform: uppercase;
   word-spacing: 100vw;
+  transition: font-size 0.2s, text-align 0.2s;
 }
 
 .top img {
@@ -127,6 +145,7 @@ nav {
   height: 3rem;
   left: 49%;
   bottom: 0%;
+  transition: transform 0.2s;
 }
 
 .chevron {
@@ -182,6 +201,21 @@ nav {
   100% {
     opacity: 0;
     transform: translateY(6.8rem) scale3d(0.5, 0.5, 0.5);
+  }
+}
+
+.col-12.col-lg-6 {
+  transition: all linear 0.5s;
+}
+
+@media only screen and (max-width: 992px) {
+  .top h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .scroll-down {
+    transform: scale(0.6);
   }
 }
 
