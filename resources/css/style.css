@@ -28,6 +28,21 @@ nav {
   color: grey !important;
 }
 
+.nav-link:hover {
+  color: white !important;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  transition: transform 0.3s;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
+}
+
 /* TOP */
 
 .top {
@@ -47,6 +62,8 @@ nav {
 .top img {
   max-width: 100%;
   margin: auto 0;
+  animation: pulse 2s;
+  animation-iteration-count: 3;
 }
 
 /**********************************************************************
