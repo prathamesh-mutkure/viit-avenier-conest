@@ -220,5 +220,20 @@ nav {
 }
 
 /*--------------------------------------------------------------
-# 
+# Timeline page
 --------------------------------------------------------------*/
+
+.timeline-page {
+  position: relative;
+  background: url("../img/mars_city.webp") no-repeat center;
+  background-size: cover;
+}
+
+.timeline-page h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.5rem;
+  color: white;
+  transition: font-size 0.2s, text-align 0.2s;
+  position: relative;
+  top: 5%;
+}
