@@ -13,6 +13,59 @@ body {
   height: 100vh;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
+/*--------------------------------------------------------------
+# Top
+--------------------------------------------------------------*/
+
+.loading-anim {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: black;
+}
+
+.outer-orbit {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 294px;
+  height: 294px;
+  border-radius: 100%;
+  -webkit-animation: spin-right 4s linear infinite;
+  animation: spin-right 4s linear infinite;
+}
+
+.loading-anim img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -40%;
+  height: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  transform: rotate(45deg);
+}
+
+@keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
 /*--------------------------------------------------------------
 # Nav Bar
 --------------------------------------------------------------*/
