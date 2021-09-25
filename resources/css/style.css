@@ -13,12 +13,40 @@ body {
   height: 100vh;
 }
 
+/**********************************************************************
+********************* NAV *****************************************
+***********************************************************************/
+
+nav {
+  background-color: #090015;
+  padding: 5% 2%;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: grey !important;
+}
+
 /* TOP */
 
 .top {
-  background: url("/resources/img/sun_person.webp") right no-repeat;
   background-size: contain;
   background-color: #090015;
+  padding-top: 10%;
+}
+
+.top h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 5rem;
+  text-transform: uppercase;
+  word-spacing: 100vw;
+}
+
+.top img {
+  max-width: 100%;
+  margin: auto 0;
 }
 
 /**********************************************************************
