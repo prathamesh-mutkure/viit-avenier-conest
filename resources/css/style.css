@@ -225,7 +225,7 @@ nav {
 }
 
 /*--------------------------------------------------------------
-# Timeline page
+# Timeline page - Mars
 --------------------------------------------------------------*/
 
 .timeline-page {
@@ -240,6 +240,10 @@ nav {
   font-size: 3rem;
   color: #f26226;
   transition: font-size 0.2s, text-align 0.2s;
+}
+
+.timeline-page h1 span {
+  font-size: 1.5rem;
 }
 
 .timeline-page h2 {
