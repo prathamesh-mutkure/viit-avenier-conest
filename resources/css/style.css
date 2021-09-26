@@ -285,3 +285,31 @@ nav {
 #particle {
   overflow-x: hidden;
 }
+
+/*--------------------------------------------------------------
+# Carousel Top
+--------------------------------------------------------------*/
+
+.car-top {
+  min-height: 100vh;
+  padding-top: 15%;
+}
+
+.car-top h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 5rem;
+  text-transform: uppercase;
+  transition: font-size 0.2s, text-align 0.2s;
+  margin: auto 0;
+  color: orange;
+}
+
+.car-top .scroll-down {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  left: 49%;
+  bottom: 0%;
+  transition: transform 0.2s;
+}
