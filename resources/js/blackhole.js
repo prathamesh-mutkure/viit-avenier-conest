@@ -12,8 +12,8 @@ window.requestAnimFrame =
 // Global Canvas Setting
 var canvas = document.getElementById("particle");
 var ctx = canvas.getContext("2d");
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+canvas.width = window.innerWidth / 2;
+canvas.height = window.innerHeight / 2;
 
 // Particles Around the Parent
 function Particle(x, y, distance) {
@@ -68,6 +68,7 @@ function Emitter(x, y) {
 Emitter.prototype = {
   draw: function () {
     ctx.fillStyle = "rgba(0,0,0,1)";
+    // ctx.fillStyle = "rgba(33,27,62,1)";
     ctx.beginPath();
     ctx.arc(
       this.position.x,
