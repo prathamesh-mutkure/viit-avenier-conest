@@ -229,9 +229,6 @@ nav {
 --------------------------------------------------------------*/
 
 .timeline-page {
-  background: url("../img/mars_bg.svg") no-repeat bottom;
-  background-color: #211b3e;
-  background-size: contain;
   padding-top: 5%;
 }
 
@@ -269,6 +266,20 @@ nav {
 
 .aliens-timeline img {
   animation: swing 5s linear infinite;
+}
+
+.bg-img {
+  background: url("../img/mars_bg.svg") no-repeat bottom;
+  background-color: #211b3e;
+  background-size: contain;
+}
+
+.bg-dark1 {
+  background: #090015 !important;
+}
+
+.bg-dark2 {
+  background: #000018 !important;
 }
 
 #particle {
