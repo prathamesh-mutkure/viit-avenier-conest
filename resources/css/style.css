@@ -262,9 +262,9 @@ nav {
 }
 
 @media only screen and (max-width: 992px) {
-  .timeline-page img {
+  /* .timeline-page img {
     position: relative;
-    top: -50px;
+    top: -50px; */
 }
 
 /*--------------------------------------------------------------
