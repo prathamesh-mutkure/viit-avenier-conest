@@ -262,3 +262,11 @@ nav {
   padding-top: 5%;
   color: grey;
 }
+
+/*--------------------------------------------------------------
+# Timeline page - Mars
+--------------------------------------------------------------*/
+
+.aliens-timeline img {
+  animation: swing 5s linear infinite;
+}
